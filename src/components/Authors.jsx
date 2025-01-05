@@ -22,7 +22,7 @@ const Authors = (props) => {
     event.preventDefault()
 
     console.log('update year...')
-    changeYear({variables: {name, year: parseInt(year)}})
+    changeYear({variables: {name, setBornTo: parseInt(year)}})
 
     setName('')
     setYear('')
