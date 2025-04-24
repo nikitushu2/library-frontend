@@ -1,8 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a React-based frontend for a library management system that uses GraphQL for data communication. The application allows users to log in, browse books and authors, add new books, and receive personalized book recommendations based on their favorite genre. It features real-time updates through GraphQL subscriptions when new books are added to the library. The interface provides different views for authors (with the ability to update their birth years), books (with genre filtering capabilities), and a book addition form. The application uses Apollo Client to handle GraphQL operations and includes authentication with JWT tokens stored in local storage.
